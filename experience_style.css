@@ -1,0 +1,162 @@
+body {
+    background-color: black; /* Change background to white */
+    height: 100vh; 
+    overflow-y: scroll;
+    margin: 0;
+  }
+
+  .background-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Divide the space into 4 equal parts */
+    background-image: url("images/experience-page.jpeg");
+    background-color: black;
+    background-position-y: 35%;
+    width: 90%;
+    height: 100vh;
+    margin-left: 75px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+  }
+
+  .black-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.7);
+    mix-blend-mode: normal;
+    z-index: 1;
+    border-bottom: 1px solid white;
+  }
+
+.black-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.7);
+    mix-blend-mode: normal;
+    z-index: 1;
+  }
+
+  p.home {
+    font-family: courier;
+    position: absolute;
+    font-size: 30px;
+    top: -12px;
+    left: 15%;
+    z-index: 1;
+  }
+  a.home-link {
+    text-decoration: none;
+    color: white;
+  }
+  a.home-link:hover {
+    text-decoration: underline;
+  }
+
+  p.projects {
+    font-family: courier;
+    position: absolute;
+    font-size: 30px;
+    top: -12px;
+    left: 45%;
+    z-index: 1;
+  }
+  a.projects-link {
+    text-decoration: none;
+    color: white;
+  }
+  a.projects-link:hover {
+    text-decoration: underline;
+  }
+
+  p.experience {
+    font-family: courier;
+    position: absolute;
+    font-size: 30px;
+    top: -12px;
+    left: 75%;
+    z-index: 1;
+  }
+  a.experience-link {
+    text-decoration: none;
+    color: white;
+  }
+  a.experience-link:hover {
+    text-decoration: underline;
+  }
+
+.job-experience {
+    border: 1px solid gray;
+    padding: 8px;
+    margin-top: 10px;
+    width: 76%;
+  }
+  
+  h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: white;
+  }
+  
+  p {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+    color: white;
+    text-indent: 0;
+  }
+
+  h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .club-experience {
+    border: 1px solid gray;
+    font-size: 25px;
+    padding-left: 30px;
+    margin-top: 10px;
+    width: 20%;
+  }
+
+  .experience-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h3 {
+    color: white;
+    text-decoration: underline;
+  }
+
+  .top-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .education-container {
+    border: 1px solid gray;
+    font-size: 25px;
+    padding-left: 30px;
+    width: 48%;
+    margin-top: 10px;
+  }
+
+  .skills-container {
+    border: 1px solid gray;
+    font-size: 25px;
+    padding-left: 30px;
+    margin-top: 10px;
+    width: 47%;
+    margin-top: 10px;
+  }
+  .skills-text {
+    padding-left: 100px;
+  }
